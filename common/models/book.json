@@ -1,0 +1,23 @@
+{
+    "name": "Book",
+    "base": "PersistedModel",
+    "strict": true,
+    "properties": {
+        "id": {
+            "id": true,
+            "type": "string"
+        },
+        "title": "string"
+    },
+    "relations": {
+        "cover": {
+            "type": "embedsOne",
+            "model": "Page",
+            "property": "cover",
+            "options": {
+                "persistent": true,
+                "forceId": true
+            }
+        }
+    }
+}

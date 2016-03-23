@@ -1,0 +1,14 @@
+{
+    "name": "Page",
+    "base": "PersistedModel",
+    "strict": true,
+    "properties": {
+        "id": {
+            "id": true,
+            "type": "string"
+        },
+        "content": {
+            "type": "string"
+        }
+    }
+}
