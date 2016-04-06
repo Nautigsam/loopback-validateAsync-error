@@ -10,10 +10,10 @@
         "title": "string"
     },
     "relations": {
-        "cover": {
-            "type": "embedsOne",
+        "pages": {
+            "type": "embedsMany",
             "model": "Page",
-            "property": "cover",
+            "property": "pages",
             "options": {
                 "persistent": true,
                 "forceId": true

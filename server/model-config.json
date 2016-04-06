@@ -1,0 +1,13 @@
+{
+    "_meta": {
+        "sources": ["../common/models"]
+    },
+    "Book": {
+        "dataSource": "db",
+        "public": true
+    },
+    "Page": {
+        "dataSource": "db",
+        "public": true
+    }
+}
